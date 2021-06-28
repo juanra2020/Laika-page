@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+//Estilos globales para dropdown y botones
+
+.dropdown-menu {
+    outline: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.9rem;
+    color: #ececf6;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ececf6;
+    border-radius: 0.25rem;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    background: none;
+    color: #603e85 !important;
+    border: none !important;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.btn-secondary {
+    background: none;
+    color: #603e85 !important;
+    border: none !important;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none !important;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: none;
+    border-color: #ececf6;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+    float: none;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: none;
+    border-color: #ececf6;
+}
